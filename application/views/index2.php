@@ -55,6 +55,7 @@
 			<a id="logo"></a>
 			<a id="download" href="http://ggcoin.sinaapp.com/welcome/downloadAPK"></a>
 			<a id="vcode"></a>
+			<a style="visibility: hidden">比特币 山寨币 看盘软件 安卓 BB看盘 可能是最好的山寨币看盘工具 比特时代看盘工具 </a>
 			<div id="contact">bbkanpan<a>@</a>gmail.com</div>
 			<h1 id="donate">接受捐赠：</br>XRP:rMPszrrd7Jwrf6ysFT6L3aeJsAVC87N3rQ<br/>LTC:LKX1s5yZL1VFVU1VURSkCP1RZzMu6cVXGF</h1>
 		</div>		
