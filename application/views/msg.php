@@ -6,9 +6,9 @@
     		padding: 30px 0;
     	}
 	 }
-	.cc {
-　　	margin: auto;
-　　}
+	 .lk{
+	 	margin-top: 500px;
+	 }
 	
     
 
@@ -17,6 +17,8 @@
 
 <body>
 
-		<h1 class="text-center msg "><?=$msg?></h1>
+		<h1 class="text-center msg"><?=$msg?></h1>
+
+		<p  class="text-center lk"><a href="<?=base_url().'god'?>">Biu</a></p>
 	
 </body>
