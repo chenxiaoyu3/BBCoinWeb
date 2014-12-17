@@ -1,4 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="<?=asset_url().'css/text_flash.css'?>">
 <style type="text/css">
 	@media (min-width: @screen-sm-min) { 
 		.masthead {
@@ -24,12 +25,15 @@
     .masthead {
     	padding: 70px 0;
     }
+    
+
 </style>
 </head>
 
 <body>
 	<header class="navbar"></header>
 	<main class="masthead">
+		<h2 class="text-center msg"><?=$msg?></h2>
 		<h1 class="text-center"> 戳你妹 </h1>
 		<div class="container">
 			

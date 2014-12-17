@@ -4,9 +4,17 @@ class God extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('head');
-		$this->load->view('random');
+		$data = array('msg' => $this->uri->segment(1));
+		$this->load->view('head', $data);
+		$this->load->view('random', $data);
+		$this->load->view('foot');
+	}
+	public function sb(){
+		$data = array('msg' => rawurldecode($this->uri->segment(3)));
+		$this->load->view('head', $data);
+		$this->load->view('random', $data);
 		$this->load->view('foot');
 	}
 	
+
 }
