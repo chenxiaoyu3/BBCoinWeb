@@ -12,7 +12,7 @@ class God extends CI_Controller {
 	public function sb(){
 		$data = array('msg' => rawurldecode($this->uri->segment(3)));
 		$this->load->view('head', $data);
-		$this->load->view('random', $data);
+		$this->load->view('msg', $data);
 		$this->load->view('foot');
 	}
 	
