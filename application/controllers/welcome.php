@@ -26,8 +26,8 @@ class Welcome extends CI_Controller {
 
 	public function downloadAPK(){
 		$this->load->helper('download');
-		$name = 'BBKanPan_beta_0.1.apk';
-		$data = file_get_contents(asset_url().'bin/v0.1.apk');
+		$name = 'BBKanPan_beta_0.2.apk';
+		$data = file_get_contents(asset_url().'bin/v0.2.apk');
 		force_download($name, $data);
 	}
     
