@@ -9,10 +9,12 @@
 <style type="text/css">
 	body {background: url(<?=asset_url().'img/background.gif'?>);}
 	#logo {background: url(<?=asset_url().'img/bbtitle.png'?>) no-repeat; width: 200px; height: 300px; display: block;}
-	#download { background: url(<?=asset_url().'img/download2.png'?>) no-repeat; width:242px; height:83px; display: block; margin:100px 0px 0px 12px; }
-	#vcode {background: url(<?=asset_url().'img/vcode.png'?>) no-repeat; width: 256px; height: 256px; margin: 20px 0px 0px 0px; display: block;}
+	#download { background: url(<?=asset_url().'img/download2.png'?>) no-repeat; width:242px; height:83px; display: block; margin:10px 0px 0px 12px; }
+	.vcode { margin: 18px 0px 0px 0px;}
+	
 	#update_log{display: block;margin-top: 100px;}
-	#contact{color: #6f6f6f}
+	#contact{color: #6f6f6f; margin: 20px 0;}
+	.platform{ margin: 15px auto; display: block;}
 </style>
 <title>BB看盘 比特时代看盘工具</title>
 <meta name="description" content="比特币 山寨币 看盘软件 安卓 BB看盘 可能是最好的山寨币看盘工具 比特时代看盘工具" />
@@ -53,11 +55,25 @@
 		<div class="col-md-6"></div>
 		<div class="col-md-6">
 			<a id="logo"></a>
-			<a id="download" href="http://ggcoin.sinaapp.com/welcome/downloadAPK"></a>
-			<a id="vcode"></a>
+			<div class="row">
+				<div class="col-md-3">
+					<img class="platform" src="<?=asset_url().'img/platform-android.png'?>" />
+					<img class="vcode img" src="<?=asset_url().'img/vcode.png'?>" />
+					<a class="btn btn-link center-block" href="http://ggcoin.sinaapp.com/welcome/downloadAPK">直接下载</a>
+				</div>
+				<div class="col-md-3">
+					<img class="platform" src="<?=asset_url().'img/platform-ios.png'?>" />
+					<img class="vcode img" src="<?=asset_url().'img/vcode-ios.png'?>" />
+					
+				</div>
+				
+			</div>
+			
 			<a style="visibility: hidden">比特币 山寨币 看盘软件 安卓 BB看盘 可能是最好的山寨币看盘工具 比特时代看盘工具 </a>
-			<div id="contact">bbkanpan<a>@</a>gmail.com</div>
+			<div id="contact">bbkanpan@gmail.com</div>
+			<!--
 			<h1 id="donate">接受捐赠：</br>XRP:rMPszrrd7Jwrf6ysFT6L3aeJsAVC87N3rQ<br/>LTC:LKX1s5yZL1VFVU1VURSkCP1RZzMu6cVXGF</h1>
+			-->
 		</div>		
 	</div>
 </div>
