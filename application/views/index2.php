@@ -24,7 +24,7 @@
 	<section> 
 		<div class="container" >
 			<div class="row">
-				<div class="col-md-6 demo-ver">
+				<div class="col-md-5 demo-ver">
 					<img src="<?=asset_url().'img/ph3.png'?>">
 				</div>		
 			</div>
@@ -33,7 +33,7 @@
 	<section> 
 		<div class="container" >
 			<div class="row">
-				<div class="col-md-6 demo-ver">
+				<div class="col-md-5 demo-ver">
 					<img src="<?=asset_url().'img/ph4.png'?>">
 				</div>		
 			</div>
@@ -42,7 +42,7 @@
 	<section> 
 		<div class="container-fluid" >
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-5">
 					<img class="demo-hor" src="<?=asset_url().'img/ph7.png'?>">
 				</div>		
 			</div>
@@ -52,21 +52,23 @@
 <div id="download_container" class="container" >
 	<div style="height:150px"></div>
 	<div class="row">
-		<div class="col-md-6"></div>
-		<div class="col-md-6">
+		<!-- <div class="col-md-6"></div> -->
+		<div class="col-md-6 col-md-offset-5">
 			<a id="logo"></a>
+			<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3">
-					<img class="platform" src="<?=asset_url().'img/platform-android.png'?>" />
+				<div class="col-md-6">
+					<img class="platform center-block" src="<?=asset_url().'img/platform-android.png'?>" />
 					<img class="vcode img" src="<?=asset_url().'img/vcode.png'?>" />
 					<a class="btn btn-link center-block" href="http://ggcoin.sinaapp.com/welcome/downloadAPK">直接下载</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-6">
 					<img class="platform" src="<?=asset_url().'img/platform-ios.png'?>" />
 					<img class="vcode img" src="<?=asset_url().'img/vcode-ios.png'?>" />
 					
 				</div>
 				
+			</div>
 			</div>
 			
 			<a style="visibility: hidden">比特币 山寨币 看盘软件 安卓 BB看盘 可能是最好的山寨币看盘工具 比特时代看盘工具 </a>
